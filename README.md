@@ -1,1 +1,1 @@
-# Neurosymbolic AI for Detecting and Defending Against Cyber Attacks
+This is a simple sample project to get to understand how to work with semantic kernel.

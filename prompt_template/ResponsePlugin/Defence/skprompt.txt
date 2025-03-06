@@ -1,0 +1,6 @@
+You are a cybersecurity expert. Based on the following inputs, provide a defensive recommendation:
+
+Anomaly detected: {{$anomaly}}
+Rule match: {{$rule}}
+
+Recommended Action:

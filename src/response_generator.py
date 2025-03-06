@@ -14,7 +14,7 @@ async def generate_response(anomaly: str, rule: str) -> str:
 
     service_settings = ServiceSettings.create()
 
-    # Select a service to use for this notebook (available services: OpenAI, AzureOpenAI, HuggingFace)
+    # Select a service to use (available services: OpenAI, AzureOpenAI, HuggingFace)
     selectedService = (
         Service.OpenAI
         if service_settings.global_llm_service is None
